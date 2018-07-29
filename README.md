@@ -13,3 +13,4 @@ R CMD SHLIB MatrixMul.o -lcudart -L/usr/local/cuda-8.0/lib64
 
 
 3.compare the speed of the GPU version with the normal version?
+https://github.com/sechenmo/RMatrixGPU/blob/master/Screenshot%20from%202018-07-30%2000-30-06.png
