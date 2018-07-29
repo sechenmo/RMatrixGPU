@@ -1,5 +1,5 @@
 
-=======
+==================================
 # RMatrixGPU
 1.introduction
 This is the Matrix Multiplication with CUDA in R language.
@@ -15,8 +15,9 @@ R CMD SHLIB MatrixMul.o -lcudart -L/usr/local/cuda-8.0/lib64
 
 
 3.compare the speed of the GPU version with the normal version?
+
+
 matrixA<-matrix(as.integer(1),3000,2000)
 matrixB<-matrix(as.integer(2),2000,4000)
 
 https://github.com/sechenmo/RMatrixGPU/blob/master/Screenshot%20from%202018-07-30%2000-30-06.png
->>>>>>> 4b607866ef47614b633c6603ba96d8d4a74c5115
