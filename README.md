@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-THis is the R 
+
 =======
 # RMatrixGPU
 1.introduction
