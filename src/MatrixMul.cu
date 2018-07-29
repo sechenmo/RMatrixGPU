@@ -1,9 +1,4 @@
 
-// MutIn.cu:  finds mean number of mutual inlinks, 
-// among all pairs of Web sites in our set; in checking 
-// (i,j) pairs, thread k will handle all i such that 
-// i mod totth = k, where totth is the number of threads
-
 #include <cuda.h>
 //#include <cuda_runtime.h>
 #include <stdlib.h>
