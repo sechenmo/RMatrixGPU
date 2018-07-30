@@ -1,5 +1,5 @@
 
-==================================
+========================================
 # RMatrixGPU
 1.introduction
 
@@ -10,6 +10,7 @@ My GPU is GeForce GTX 1070.
 2.How to run the codes?
 
 1)compile the MatrixMul.cu by the following command:
+
 nvcc -g -Xcompiler -fPIC -c MatrixMul.cu -arch=sm_35 -I/usr/include/R -I/usr/share/R/include
 R CMD SHLIB MatrixMul.o -lcudart -L/usr/local/cuda-8.0/lib64
 
